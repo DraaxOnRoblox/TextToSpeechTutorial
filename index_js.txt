@@ -1,0 +1,9 @@
+const speech = new SpeechSynthesisUtterance() // Create the text to speech
+
+        function play() { // Detect when to start the text to speech
+            const message = document.getElementById("message").value // Make a variable to detect the text to say
+
+            speech.lang = "en" // Put the language to english!
+            speech.text = message // Detect the text to say
+            window.speechSynthesis.speak(speech) // Start the text to speech
+        } // End the script

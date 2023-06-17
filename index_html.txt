@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!-- Detect what type of document it is! -->
+<html lang="en"> <!-- Detect the language of the page -->
+<head> <!-- Start the heading script -->
+    <meta charset="UTF-8"> <!-- Accept the special characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- To accept all devices -->
+    <link rel="stylesheet" href="style.css"> <!-- Link "style.css" for the styles! -->
+    <title>Text to Speech</title> <!-- Create the title of the page -->
+</head> <!-- End the heading script -->
+<body> <!-- Start the body script -->
+
+    <div class="container2"> <!-- To help in the "style.css" script -->
+        <h1>Text to Speech</h1> <!-- Add a big text at the top -->
+    </div> <!-- End the div -->
+
+    <div class="container"> <!-- Start the 2nd div -->
+
+        <input type="text" id="message" class="message"> <!-- Add an input -->
+        <button onclick="play()" class="button">Start</button> <!-- Add a button -->
+
+    </div> <!-- End the second div -->
+
+    <script src="index.js"></script> <!-- Link "index.js" for the scripts -->
+
+</body> <!-- End the body script -->
+</html> <!-- End the HTML document -->
